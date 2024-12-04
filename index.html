@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Ecom</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+      .inter-font {
+        font-family: "Inter", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      .urbanist-text {
+        font-family: "Urbanist", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body class="inter-font px-3 bg-[#f3f3f3]">
+    <!-- header  -->
+    <header class="container mx-auto sm:mt-3 lg:mt-[50px] space-y-16 pb-[50px]">
+      <!-- navbar  -->
+      <nav class="flex items-center w-full justify-between">
+        <div class="logo flex items-center">
+          <h1 class="text-3xl"><span class="text-[#fc6320]">e</span>Com</h1>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="#fc6320"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+            />
+          </svg>
+        </div>
+        <div class="ham-iocn md:hidden">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        </div>
+        <div class="menuItems hidden md:block">
+          <ul class="flex gap-6 text-[#0f0e0e99] items-center">
+            <li
+              class="bg-[#fc63201a] p-2 rounded border border-[#fc632026] text-[#fc6320]"
+            >
+              Home
+            </li>
+            <li>Shop</li>
+            <li>App products</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+
+        <div class="socialMedia hidden md:block">
+          <ul class="flex gap-4">
+            <li>
+              <a href="#"
+                ><img src="./img/communication.png" class="w-[30px]" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./img/instagram.png" class="w-[30px] alt="" /></a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./img/twitter.png" class="w-[30px] alt="" /></a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- navbar end   -->
+      <!-- banner -->
+      <section
+        class="flex relative rounded-3xl items-center justify-center h-[550px] xl:h-[650px] bg-[url('./img/abc.jpg')] bg-no-repeat bg-cover w-full"
+      >
+        <div
+          class="absolute rounded-3xl bg-gradient-to-t from-black inset-0 opacity-70"
+        ></div>
+        <div class="text-center space-y-5 z-50">
+          <div class="title-desc urbanist-text">
+            <h1 class="text-white font-bold lg:text-5xl text-4xl">
+              Explore an extensive collection of products <br />
+              designed just for you, featuring the latest in fashion,
+            </h1>
+            <p class="text-slate-300 font-normal text-center">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Praesentium, cum recusandae similique quas voluptas doloremque
+              laboriosam nisi excepturi sint <br />
+              iusto quis labore assumenda dignissimos nobis culpa fuga illo
+              deleniti. Deserunt nihil illo a autem.
+            </p>
+          </div>
+          <div class="justify-center flex pt-5 gap-3">
+            <button class="bg-[#FC6320] rounded-md py-3 px-5 text-white">
+              Expolore Deals
+            </button>
+            <button
+              class="bg-[#00B1D3] rounded-md py-3 px-5 text-white border border-white"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- banner end-->
+      <!-- brand section -->
+      <section class="brand flex justify-between items-center mt-10 flex-wrap">
+        <div>
+          <img
+            src="./brand/ssss.png"
+            alt=""
+            class="w-[120px] filter grayscale"
+          />
+        </div>
+        <div>
+          <img src="./brand/ssss.png" alt="" class="w-[120px] filter grayscale""
+          />
+        </div>
+
+        <div>
+          <img src="./brand/ssss.png" alt="" class="w-[100px] filter grayscale""
+          />
+        </div>
+        <div>
+          <img src="./brand/UNICEF_Logo.png" alt="" class="w-[120px] filter
+          grayscale"" />
+        </div>
+
+        <div>
+          <img src="./brand/UNICEF_Logo.png" alt="" class="w-[120px] filter
+          grayscale"" />
+        </div>
+
+        <div>
+          <img src="./brand/UNICEF_Logo.png" alt="" class="w-[120px] filter
+          grayscale"" />
+        </div>
+      </section>
+      <!-- brand section endds-->
+    </header>
+    <!-- header  end -->
+
+    <!-- main? -->
+
+    <main class="container mx-auto sm:mt-3 lg:mt-[50px] space-y-16 pb-[50px]">
+      <!-- product-section  -->
+      <section class="product-section space-y-5">
+        <div
+          class="text-center urbanist-text flex flex-col justify-center items-center space-y-5"
+        >
+          <h1 class="text-5xl">Exclusive products</h1>
+          <p class="text-slate-300 lg:w-[40%]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            quos assumenda est cumque quibusdam, dolorum harum eveniet commodi
+            distinctio tempora!
+          </p>
+        </div>
+
+        <div
+          class="products grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"
+        >
+          <div class="product-container rounded-lg bg-white">
+            <div class="products p-5 space-y-5">
+              <div class="h-[200px] bg-[#f3f3f3] rounded-lg"></div>
+              <div class="titile-desce">
+                <h1 class="text-xl">Exclusive products</h1>
+                <p class="text-slate-300">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perferendis quos assumenda est cumque quibusdam,
+                </p>
+                <div class="quaintity-price flex justify-between items-center">
+                  <h1>Price: 1520tka</h1>
+                  <div
+                    class="bg-[#f3f3f3] py-2 px-8 rounded-lg text-lg flex gap-3"
+                  >
+                    <span>+</span>
+                    <span>2</span>
+                    <span>-</span>
+                  </div>
+                </div>
+
+                <div class="flex flex-col gap-3 mt-5">
+                  <button
+                    class="bg-[#f0f2f2] rounded-lg py-3 text-black border border-blue-300"
+                  >
+                    Add to Cart
+                  </button>
+
+                  <button
+                    class="bg-[#FC63201A] rounded-lg py-3 px-5 text-[#FC6320] border border-[#FC6320]"
+                  >
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-container rounded-lg bg-white">
+            <div class="products p-5 space-y-5">
+              <div class="h-[200px] bg-[#f3f3f3] rounded-lg"></div>
+              <div class="titile-desce">
+                <h1 class="text-xl">Exclusive products</h1>
+                <p class="text-slate-300">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perferendis quos assumenda est cumque quibusdam,
+                </p>
+                <div class="quaintity-price flex justify-between items-center">
+                  <h1>Price: 1520tka</h1>
+                  <div
+                    class="bg-[#f3f3f3] py-2 px-8 rounded-lg text-lg flex gap-3"
+                  >
+                    <span>+</span>
+                    <span>2</span>
+                    <span>-</span>
+                  </div>
+                </div>
+
+                <div class="flex flex-col gap-3 mt-5">
+                  <button
+                    class="bg-[#f0f2f2] rounded-lg py-3 text-black border border-blue-300"
+                  >
+                    Add to Cart
+                  </button>
+
+                  <button
+                    class="bg-[#FC63201A] rounded-lg py-3 px-5 text-[#FC6320] border border-[#FC6320]"
+                  >
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-container rounded-lg bg-white">
+            <div class="products p-5 space-y-5">
+              <div class="h-[200px] bg-[#f3f3f3] rounded-lg"></div>
+              <div class="titile-desce">
+                <h1 class="text-xl">Exclusive products</h1>
+                <p class="text-slate-300">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perferendis quos assumenda est cumque quibusdam,
+                </p>
+                <div class="quaintity-price flex justify-between items-center">
+                  <h1>Price: 1520tka</h1>
+                  <div
+                    class="bg-[#f3f3f3] py-2 px-8 rounded-lg text-lg flex gap-3"
+                  >
+                    <span>+</span>
+                    <span>2</span>
+                    <span>-</span>
+                  </div>
+                </div>
+
+                <div class="flex flex-col gap-3 mt-5">
+                  <button
+                    class="bg-[#f0f2f2] rounded-lg py-3 text-black border border-blue-300"
+                  >
+                    Add to Cart
+                  </button>
+
+                  <button
+                    class="bg-[#FC63201A] rounded-lg py-3 px-5 text-[#FC6320] border border-[#FC6320]"
+                  >
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-container rounded-lg bg-white">
+            <div class="products p-5 space-y-5">
+              <div class="h-[200px] bg-[#f3f3f3] rounded-lg"></div>
+              <div class="titile-desce">
+                <h1 class="text-xl">Exclusive products</h1>
+                <p class="text-slate-300">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perferendis quos assumenda est cumque quibusdam,
+                </p>
+                <div class="quaintity-price flex justify-between items-center">
+                  <h1>Price: 1520tka</h1>
+                  <div
+                    class="bg-[#f3f3f3] py-2 px-8 rounded-lg text-lg flex gap-3"
+                  >
+                    <span>+</span>
+                    <span>2</span>
+                    <span>-</span>
+                  </div>
+                </div>
+
+                <div class="flex flex-col gap-3 mt-5">
+                  <button
+                    class="bg-[#f0f2f2] rounded-lg py-3 text-black border border-blue-300"
+                  >
+                    Add to Cart
+                  </button>
+
+                  <button
+                    class="bg-[#FC63201A] rounded-lg py-3 px-5 text-[#FC6320] border border-[#FC6320]"
+                  >
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-container rounded-lg bg-white">
+            <div class="products p-5 space-y-5">
+              <div class="h-[200px] bg-[#f3f3f3] rounded-lg"></div>
+              <div class="titile-desce">
+                <h1 class="text-xl">Exclusive products</h1>
+                <p class="text-slate-300">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perferendis quos assumenda est cumque quibusdam,
+                </p>
+                <div class="quaintity-price flex justify-between items-center">
+                  <h1>Price: 1520tka</h1>
+                  <div
+                    class="bg-[#f3f3f3] py-2 px-8 rounded-lg text-lg flex gap-3"
+                  >
+                    <span>+</span>
+                    <span>2</span>
+                    <span>-</span>
+                  </div>
+                </div>
+
+                <div class="flex flex-col gap-3 mt-5">
+                  <button
+                    class="bg-[#f0f2f2] rounded-lg py-3 text-black border border-blue-300"
+                  >
+                    Add to Cart
+                  </button>
+
+                  <button
+                    class="bg-[#FC63201A] rounded-lg py-3 px-5 text-[#FC6320] border border-[#FC6320]"
+                  >
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-container rounded-lg bg-white">
+            <div class="products p-5 space-y-5">
+              <div class="h-[200px] bg-[#f3f3f3] rounded-lg"></div>
+              <div class="titile-desce">
+                <h1 class="text-xl">Exclusive products</h1>
+                <p class="text-slate-300">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Perferendis quos assumenda est cumque quibusdam,
+                </p>
+                <div class="quaintity-price flex justify-between items-center">
+                  <h1>Price: 1520tka</h1>
+                  <div
+                    class="bg-[#f3f3f3] py-2 px-8 rounded-lg text-lg flex gap-3"
+                  >
+                    <span>+</span>
+                    <span>2</span>
+                    <span>-</span>
+                  </div>
+                </div>
+
+                <div class="flex flex-col gap-3 mt-5">
+                  <button
+                    class="bg-[#f0f2f2] rounded-lg py-3 text-black border border-blue-300"
+                  >
+                    Add to Cart
+                  </button>
+
+                  <button
+                    class="bg-[#FC63201A] w-full rounded-lg py-3 px-5 text-[#FC6320] border border-[#FC6320]"
+                  >
+                    Buy Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="all-products-btns flex justify-center">
+          <button
+            class="bg-[#fc6320] rounded-lg py-3 px-8 text-white border border-[#FC6320]"
+          >
+            All Products
+          </button>
+        </div>
+      </section>
+      <!-- product-section end -->
+      <!-- counter-section -->
+      <section class="counter-section flex flex-col lg:flex-row justify-around">
+        <div class="flex flex-col justify-center items-center gap-3">
+          <img src="./img/brand/brand  (4).png" alt="" />
+          <h1 class="text-5xl font-bold">1500+</h1>
+          <p class="text-lg">Products</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center gap-3">
+          <img src="./img/brand/brand  (1).png" alt="" />
+          <h1 class="text-5xl font-bold">1500+</h1>
+          <p class="text-lg">Sells</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center gap-3">
+          <img src="./img/brand/brand  (2).png" alt="" />
+          <h1 class="text-5xl font-bold">1500+</h1>
+          <p class="text-lg">Happy Customers</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-center gap-3">
+          <img src="./img/brand/brand  (3).png" alt="" />
+          <h1 class="text-5xl font-bold">1500+</h1>
+          <p class="text-lg">Team Member</p>
+        </div>
+      </section>
+      <!-- counter-section end  -->
+      <!-- Create Account  form start -->
+      <section class="acc-section space-y-5">
+        <div
+          class="text-center urbanist-text flex flex-col justify-center items-center space-y-5"
+        >
+          <h1 class="text-5xl">Create Account</h1>
+          <p class="text-slate-300 lg:w-[40%]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+            quos assumenda est cumque quibusdam, dolorum harum eveniet commodi
+            distinctio tempora!
+          </p>
+        </div>
+
+        <div class="form-section bg-white flex flex-col lg:flex-row p-8">
+          <div
+            class="w-full h-full lg:w-[50%] flex justify-center items-center"
+          >
+            <img src="./img/brand/resis.png" alt="" />
+          </div>
+          <div class="w-full h-full lg:w-[50%]">
+            <form action="" class="space-y-4">
+              <div class="space-y-2">
+                <label for="name" class="block text-lg">Name</label>
+                <div class="flex gap-3">
+                  <input
+                    type="text"
+                    id="name"
+                    required
+                    placeholder="First Name "
+                    class="w-[50%] pl-3 py-3 rounded-lg placeholder:pl-3 border outline-none"
+                  />
+
+                  <input
+                    type="text"
+                    id="name"
+                    required
+                    placeholder="First Name "
+                    class="w-[50%] pl-3 py-3 rounded-lg placeholder:pl-3 border outline-none"
+                  />
+                </div>
+              </div>
+
+              <div class="space-y-2">
+                <label for="email" class="block text-lg">EmaIL</label>
+                <input
+                  type="email"
+                  id="EmaIL"
+                  required
+                  placeholder="Email"
+                  class="w-full pl-3 py-3 rounded-lg placeholder:pl-3 border outline-none"
+                />
+              </div>
+
+              <div class="space-y-2">
+                <label for="password" class="block text-lg">Password</label>
+                <input
+                  type="password"
+                  id="password"
+                  required
+                  placeholder="Password"
+                  class="w-full pl-3 py-3 rounded-lg placeholder:pl-3 border outline-none"
+                />
+              </div>
+
+              <div class="space-y-2">
+                <label for="number" class="block text-lg">Age</label>
+                <input
+                  type="number"
+                  id="age"
+                  required
+                  placeholder="age"
+                  class="w-full pl-3 py-3 rounded-lg placeholder:pl-3 border outline-none"
+                />
+              </div>
+
+              <div class="space-y-2 flex gap-4">
+                <div class="w-[50%]">
+                  <label for="gender" class="block text-lg">Gender</label>
+                  <select
+                    class="w-full pl-3 py-3 rounded-lg placeholder:pl-3 border outline-none"
+                    name="gender"
+                    id="gender"
+                  >
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                  </select>
+                </div>
+
+                <div class="w-[50%]">
+                  <label for="gender" class="block text-lg">Gender</label>
+                  <select
+                    class="w-full pl-3 py-3 rounded-lg placeholder:pl-3 border outline-none"
+                    name="gender"
+                    id="gender"
+                  >
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="justify-center flex pt-5 gap-3">
+                <button
+                  class="w-full bg-[#FC6320] rounded-md py-3 px-5 text-white"
+                >
+                  Expolore Deals
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Create Account  form end -->
+
+      <!-- reviews section -->
+
+      <section class="reviews-section">
+        <div class="title-btn-container">
+          <div class="flex w-full justify-between">
+            <div class="urbanist-text w-full lg:w-1/2">
+              <h1 class="text-5xl">Create Account</h1>
+              <p class="text-slate-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis quos assumenda est cumque quibusdam, dolorum harum
+                eveniet commodi distinctio tempora!
+              </p>
+            </div>
+            <div
+              class="arrow_containter flex gap-4 w-full lg:w-1/2 items-end justify-end"
+            >
+              <div
+                class="h-10 w-10 bg-white rounded-full flex items-center justify-center"
+              >
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6.75 15.75 3 12m0 0 3.75-3.75M3 12h18"
+                    />
+                  </svg>
+                </span>
+              </div>
+              <div
+                class="h-10 w-10 bg-black rounded-full flex items-center justify-center"
+              >
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="size-6 text-white"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3"
+                    />
+                  </svg>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- reviews section end -->
+    </main>
+    <!-- main?  ends-->
+
+    <footer class="overflow-hidden">
+      <section class="">
+        <div class="reviews-container container mx-auto flex gap-4">
+          <div class="review-container w-[400px] bg-white rounded-xl p-6">
+            <div class="content w-[400px] space-y-5">
+              <div class="img-title-date flex gap-5">
+                <div class="img">
+                  <div class="w-[52px] h-[52px] rounded-full bg-black"></div>
+                </div>
+                <div>
+                  <h1>Awlad Hossain</h1>
+                  <p>10/10/2024</p>
+                </div>
+              </div>
+              <p class="text-[#0F0E0EB2]">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Incidunt, voluptatibus nesciunt unde ullam molestiae, nulla
+                obcaecati, non praesentium deserunt
+              </p>
+              <div class="flex gap-5 items-center">
+                <img src="./img/brand/Frame 2087325613.png" alt="" />
+                <div>
+                  <p class="font-semibold text-lg">(4.5)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-container w-[400px] bg-white rounded-xl p-6">
+            <div class="content w-[400px] space-y-5">
+              <div class="img-title-date flex gap-5">
+                <div class="img">
+                  <div class="w-[52px] h-[52px] rounded-full bg-black"></div>
+                </div>
+                <div>
+                  <h1>Awlad Hossain</h1>
+                  <p>10/10/2024</p>
+                </div>
+              </div>
+              <p class="text-[#0F0E0EB2]">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Incidunt, voluptatibus nesciunt unde ullam molestiae, nulla
+                obcaecati, non praesentium deserunt
+              </p>
+              <div class="flex gap-5 items-center">
+                <img src="./img/brand/Frame 2087325613.png" alt="" />
+                <div>
+                  <p class="font-semibold text-lg">(4.5)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-container w-[400px] bg-white rounded-xl p-6">
+            <div class="content w-[400px] space-y-5">
+              <div class="img-title-date flex gap-5">
+                <div class="img">
+                  <div class="w-[52px] h-[52px] rounded-full bg-black"></div>
+                </div>
+                <div>
+                  <h1>Awlad Hossain</h1>
+                  <p>10/10/2024</p>
+                </div>
+              </div>
+              <p class="text-[#0F0E0EB2]">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Incidunt, voluptatibus nesciunt unde ullam molestiae, nulla
+                obcaecati, non praesentium deserunt
+              </p>
+              <div class="flex gap-5 items-center">
+                <img src="./img/brand/Frame 2087325613.png" alt="" />
+                <div>
+                  <p class="font-semibold text-lg">(4.5)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-container w-[400px] bg-white rounded-xl p-6">
+            <div class="content w-[400px] space-y-5">
+              <div class="img-title-date flex gap-5">
+                <div class="img">
+                  <div class="w-[52px] h-[52px] rounded-full bg-black"></div>
+                </div>
+                <div>
+                  <h1>Awlad Hossain</h1>
+                  <p>10/10/2024</p>
+                </div>
+              </div>
+              <p class="text-[#0F0E0EB2]">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Incidunt, voluptatibus nesciunt unde ullam molestiae, nulla
+                obcaecati, non praesentium deserunt
+              </p>
+              <div class="flex gap-5 items-center">
+                <img src="./img/brand/Frame 2087325613.png" alt="" />
+                <div>
+                  <p class="font-semibold text-lg">(4.5)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-container w-[400px] bg-white rounded-xl p-6">
+            <div class="content w-[400px] space-y-5">
+              <div class="img-title-date flex gap-5">
+                <div class="img">
+                  <div class="w-[52px] h-[52px] rounded-full bg-black"></div>
+                </div>
+                <div>
+                  <h1>Awlad Hossain</h1>
+                  <p>10/10/2024</p>
+                </div>
+              </div>
+              <p class="text-[#0F0E0EB2]">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Incidunt, voluptatibus nesciunt unde ullam molestiae, nulla
+                obcaecati, non praesentium deserunt
+              </p>
+              <div class="flex gap-5 items-center">
+                <img src="./img/brand/Frame 2087325613.png" alt="" />
+                <div>
+                  <p class="font-semibold text-lg">(4.5)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-container w-[400px] bg-white rounded-xl p-6">
+            <div class="content w-[400px] space-y-5">
+              <div class="img-title-date flex gap-5">
+                <div class="img">
+                  <div class="w-[52px] h-[52px] rounded-full bg-black"></div>
+                </div>
+                <div>
+                  <h1>Awlad Hossain</h1>
+                  <p>10/10/2024</p>
+                </div>
+              </div>
+              <p class="text-[#0F0E0EB2]">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Incidunt, voluptatibus nesciunt unde ullam molestiae, nulla
+                obcaecati, non praesentium deserunt
+              </p>
+              <div class="flex gap-5 items-center">
+                <img src="./img/brand/Frame 2087325613.png" alt="" />
+                <div>
+                  <p class="font-semibold text-lg">(4.5)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-container w-[400px] bg-white rounded-xl p-6">
+            <div class="content w-[400px] space-y-5">
+              <div class="img-title-date flex gap-5">
+                <div class="img">
+                  <div class="w-[52px] h-[52px] rounded-full bg-black"></div>
+                </div>
+                <div>
+                  <h1>Awlad Hossain</h1>
+                  <p>10/10/2024</p>
+                </div>
+              </div>
+              <p class="text-[#0F0E0EB2]">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Incidunt, voluptatibus nesciunt unde ullam molestiae, nulla
+                obcaecati, non praesentium deserunt
+              </p>
+              <div class="flex gap-5 items-center">
+                <img src="./img/brand/Frame 2087325613.png" alt="" />
+                <div>
+                  <p class="font-semibold text-lg">(4.5)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mt-28 bg-white space-y-8">
+        <div class="flex items-center justify-center">
+          <div class="footer-section flex items-center space-x-2 mt-8">
+            <h1 class="text-3xl font-bold">
+              <span class="text-[#fc6320]">e</span>Com
+            </h1>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="#fc6320"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
+              />
+            </svg>
+          </div>
+        </div>
+        <div class="flex items-center justify-center text-center">
+          <p class="text-[20px] text-[#0F0E0EB2]">
+            Lorem ipsum dolor sit amet t consectetur <br />
+            adipisicing e consectetur adipisicing elit. Quod, porro.
+          </p>
+        </div>
+        <div class="flex items-center justify-center menuItems">
+          <ul class="flex gap-6 text-[#0f0e0e99] items-center">
+            <li class="p-2">Home</li>
+            <li>Shop</li>
+            <li>App products</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="socialMedia">
+          <ul class="flex gap-4 items-center justify-center">
+            <li>
+              <a href="#"
+                ><img src="./img/communication.png" class="w-[30px]" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./img/instagram.png" class="w-[30px] alt="" /></a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./img/twitter.png" class="w-[30px] alt="" /></a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+    <!-- <footer>
+      <section class="reviews-section">
+        <div class="review-container container mx-auto">
+          <div class="flex w-full justify-between">
+            <div class="urbanist-text w-full lg:w-1/2">
+              <h1 class="text-5xl">Create Account</h1>
+              <p class="text-slate-300">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Perferendis quos assumenda est cumque quibusdam, dolorum harum
+                eveniet commodi distinctio tempora!
+              </p>
+            </div>
+            <div
+              class="arrow_containter flex gap-4 w-full lg:w-1/2 items-end justify-end"
+            >
+              <div class="h-10 w-10 bg-red-300 rounded-full"></div>
+              <div class="h-10 w-10 bg-green-300 rounded-full"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer> -->
+  </body>
+</html>
